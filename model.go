@@ -16,8 +16,8 @@ var GuestLedgerBook =[]GuestLedger{
 		Message: "Hello!",
 	},
 	{
-		Email:   "welcome@me.com",
-		Message: "You're welcome",
+		Email:   "new@gmail.com",
+		Message: "Hello",
 	},
 	{
 		Email:   "why@so.com",

@@ -1,0 +1,46 @@
+# Logfile created on 2021-12-23 18:37:34 +0300 by logger.rb/66358
+I, [2021-12-23T18:37:35.960099 #5141]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given new guest ladger posted successfuly posting new guest ladger with POST /add returns a response which has status code 200'
+I, [2021-12-23T18:37:35.971489 #5141]  INFO -- : Sending POST request to path: "/add" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"new guest ladger posted successfuly"}]}, see debug logs for body
+D, [2021-12-23T18:37:35.971569 #5141] DEBUG -- : body :{"email":"new@gmail.com","message":"Hello"}
+I, [2021-12-23T18:37:35.984556 #5141]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"142", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:37:35 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:37:35.984615 #5141] DEBUG -- : body: [{"email":"hello@world.com","message":"Hello!"},{"email":"welcome@me.com","message":"You're welcome"},{"email":"why@so.com","message":"Why?"}]
+I, [2021-12-23T18:37:35.986053 #5141]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given get all guest ladger book successfully get all guest ladger book with GET /book returns a response which has status code 200'
+I, [2021-12-23T18:37:35.994338 #5141]  INFO -- : Sending GET request to path: "/book" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"get all guest ladger book successfully"}]}, see debug logs for body
+D, [2021-12-23T18:37:35.994381 #5141] DEBUG -- : body :
+I, [2021-12-23T18:37:35.996443 #5141]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"142", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:37:35 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:37:35.996483 #5141] DEBUG -- : body: [{"email":"hello@world.com","message":"Hello!"},{"email":"welcome@me.com","message":"You're welcome"},{"email":"why@so.com","message":"Why?"}]
+I, [2021-12-23T18:37:35.997182 #5141]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given get guest ladger by email successfully get a guest ladger book by email with GET /book/new@gmail.com returns a response which has status code 200'
+I, [2021-12-23T18:37:36.005294 #5141]  INFO -- : Sending GET request to path: "/book/new@gmail.com" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"get guest ladger by email successfully"}]}, see debug logs for body
+D, [2021-12-23T18:37:36.005335 #5141] DEBUG -- : body :
+I, [2021-12-23T18:37:36.007228 #5141]  INFO -- : Received response with status: 500, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"37", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Thu, 23 Dec 2021 15:37:35 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:37:36.007267 #5141] DEBUG -- : body: guest ledger of given email not found
+I, [2021-12-23T18:39:41.409494 #5192]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given new guest ladger posted successfuly posting new guest ladger with POST /add returns a response which has status code 200'
+I, [2021-12-23T18:39:41.423373 #5192]  INFO -- : Sending POST request to path: "/add" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"new guest ladger posted successfuly"}]}, see debug logs for body
+D, [2021-12-23T18:39:41.423472 #5192] DEBUG -- : body :{"email":"new@gmail.com","message":"Hello"}
+I, [2021-12-23T18:39:41.434274 #5192]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"132", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:39:41 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:39:41.434332 #5192] DEBUG -- : body: [{"email":"hello@world.com","message":"Hello!"},{"email":"new@gmail.com","message":"Hello"},{"email":"why@so.com","message":"Why?"}]
+I, [2021-12-23T18:39:41.435680 #5192]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given get all guest ladger book successfully get all guest ladger book with GET /book returns a response which has status code 200'
+I, [2021-12-23T18:39:41.443815 #5192]  INFO -- : Sending GET request to path: "/book" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"get all guest ladger book successfully"}]}, see debug logs for body
+D, [2021-12-23T18:39:41.443853 #5192] DEBUG -- : body :
+I, [2021-12-23T18:39:41.445916 #5192]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"132", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:39:41 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:39:41.445951 #5192] DEBUG -- : body: [{"email":"hello@world.com","message":"Hello!"},{"email":"new@gmail.com","message":"Hello"},{"email":"why@so.com","message":"Why?"}]
+I, [2021-12-23T18:39:41.446634 #5192]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given get guest ladger by email successfully get a guest ladger book by email with GET /book/new@gmail.com returns a response which has status code 200'
+I, [2021-12-23T18:39:41.454448 #5192]  INFO -- : Sending GET request to path: "/book/new@gmail.com" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"get guest ladger by email successfully"}]}, see debug logs for body
+D, [2021-12-23T18:39:41.454483 #5192] DEBUG -- : body :
+I, [2021-12-23T18:39:41.456375 #5192]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:39:41 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:39:41.456408 #5192] DEBUG -- : body: {"email":"new@gmail.com","message":"Hello"}
+I, [2021-12-23T18:41:47.367296 #5234]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given new guest ladger posted successfuly posting new guest ladger with POST /add returns a response which has status code 200'
+I, [2021-12-23T18:41:47.385220 #5234]  INFO -- : Sending POST request to path: "/add" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"new guest ladger posted successfuly"}]}, see debug logs for body
+D, [2021-12-23T18:41:47.385307 #5234] DEBUG -- : body :{"email":"new@gmail.com","message":"Hello"}
+I, [2021-12-23T18:41:47.397150 #5234]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"132", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:41:47 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:41:47.397206 #5234] DEBUG -- : body: [{"email":"hello@world.com","message":"Hello!"},{"email":"new@gmail.com","message":"Hello"},{"email":"why@so.com","message":"Why?"}]
+I, [2021-12-23T18:41:47.398736 #5234]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given get all guest ladger book successfully get all guest ladger book with GET /book returns a response which has status code 200'
+I, [2021-12-23T18:41:47.406877 #5234]  INFO -- : Sending GET request to path: "/book" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"get all guest ladger book successfully"}]}, see debug logs for body
+D, [2021-12-23T18:41:47.406920 #5234] DEBUG -- : body :
+I, [2021-12-23T18:41:47.408971 #5234]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"132", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:41:47 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:41:47.409014 #5234] DEBUG -- : body: [{"email":"hello@world.com","message":"Hello!"},{"email":"new@gmail.com","message":"Hello"},{"email":"why@so.com","message":"Why?"}]
+I, [2021-12-23T18:41:47.409696 #5234]  INFO -- : Running example 'Verifying a pact between GuestLadgerClient and GuestLadgerApi Given get guest ladger by email successfully get a guest ladger book by email with GET /book/new@gmail.com returns a response which has status code 200'
+I, [2021-12-23T18:41:47.417767 #5234]  INFO -- : Sending GET request to path: "/book/new@gmail.com" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"get guest ladger by email successfully"}]}, see debug logs for body
+D, [2021-12-23T18:41:47.417802 #5234] DEBUG -- : body :
+I, [2021-12-23T18:41:47.419748 #5234]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"43", "Content-Type"=>"application/json", "Date"=>"Thu, 23 Dec 2021 15:41:47 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2021-12-23T18:41:47.419783 #5234] DEBUG -- : body: {"email":"new@gmail.com","message":"Hello"}
